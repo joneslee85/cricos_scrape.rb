@@ -1,4 +1,4 @@
-namespace :import do
+namespace :importsssss do
   
   task :institutions do
     file_output = {
