@@ -3,7 +3,7 @@ require 'mechanize'
 require 'json'
 require 'json/add/core'
 
-require_relative 'cricos_scrape/railtie' if defined?(Rails)
+require 'cricos_scrape/railtie' if defined?(Rails)
 
 require_relative 'cricos_scrape/json_struct'
 require_relative 'cricos_scrape/json_file_store'
